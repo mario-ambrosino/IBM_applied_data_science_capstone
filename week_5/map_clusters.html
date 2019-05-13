@@ -1,0 +1,1965 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_1f51714e4cc049e4a136ff6b1e181c96 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_1f51714e4cc049e4a136ff6b1e181c96" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_1f51714e4cc049e4a136ff6b1e181c96 = L.map(
+        'map_1f51714e4cc049e4a136ff6b1e181c96', {
+        center: [41.903221130371094, 12.495650291442871],
+        zoom: 11,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_fa53fb00ab81453aa5c76b2068b17189 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+    
+
+            var circle_423f4cdad338442f82a0d4bdefe9f82a = L.circle(
+                [41.894920349121094, 12.494339942932129],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 400,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_94781833476e4e86b3f08749329755f9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8be113dafde04bfe9373b740fa4cff10 = $(`<div id="html_8be113dafde04bfe9373b740fa4cff10" style="width: 100.0%; height: 100.0%;">Rione Monti Cluster 2</div>`)[0];
+                popup_94781833476e4e86b3f08749329755f9.setContent(html_8be113dafde04bfe9373b740fa4cff10);
+            
+
+            circle_423f4cdad338442f82a0d4bdefe9f82a.bindPopup(popup_94781833476e4e86b3f08749329755f9)
+            ;
+
+            
+        
+    
+
+            var circle_e2f544171136412e88ab5b503481324a = L.circle(
+                [41.902198791503906, 12.48606014251709],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 400,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_d44d09d10d354cb8a2f071db80a553b5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9888b22008dc421c8f478d6ee1d00e72 = $(`<div id="html_9888b22008dc421c8f478d6ee1d00e72" style="width: 100.0%; height: 100.0%;">Rione Trevi Cluster 1</div>`)[0];
+                popup_d44d09d10d354cb8a2f071db80a553b5.setContent(html_9888b22008dc421c8f478d6ee1d00e72);
+            
+
+            circle_e2f544171136412e88ab5b503481324a.bindPopup(popup_d44d09d10d354cb8a2f071db80a553b5)
+            ;
+
+            
+        
+    
+
+            var circle_b8566b8c4db04f1883e96f5ced3c44ce = L.circle(
+                [41.907108306884766, 12.477860450744629],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 400,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_d8731f699aba4d919c84ce81d4a697a3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_316c4b4d47154e3ebc59d22725c5449e = $(`<div id="html_316c4b4d47154e3ebc59d22725c5449e" style="width: 100.0%; height: 100.0%;">Rione Campo Marzio Cluster 2</div>`)[0];
+                popup_d8731f699aba4d919c84ce81d4a697a3.setContent(html_316c4b4d47154e3ebc59d22725c5449e);
+            
+
+            circle_b8566b8c4db04f1883e96f5ced3c44ce.bindPopup(popup_d8731f699aba4d919c84ce81d4a697a3)
+            ;
+
+            
+        
+    
+
+            var circle_bcf1b9168fc946fa8c94b8c4b9598ac0 = L.circle(
+                [41.89904022216797, 12.467109680175781],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 400,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_83cff81605a648e4873e6a6b3171b5e8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_073ea9108bfb4a639ab088a577f7fca6 = $(`<div id="html_073ea9108bfb4a639ab088a577f7fca6" style="width: 100.0%; height: 100.0%;">Rione Ponte Cluster 2</div>`)[0];
+                popup_83cff81605a648e4873e6a6b3171b5e8.setContent(html_073ea9108bfb4a639ab088a577f7fca6);
+            
+
+            circle_bcf1b9168fc946fa8c94b8c4b9598ac0.bindPopup(popup_83cff81605a648e4873e6a6b3171b5e8)
+            ;
+
+            
+        
+    
+
+            var circle_6d7f7309d8244d0bbdfd0c6a368f0c4f = L.circle(
+                [41.89479064941406, 12.470270156860352],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 400,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_90a83aaeb2a945d189abb2a6099d23a5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dead226418ec4e238fed40f3f05547bd = $(`<div id="html_dead226418ec4e238fed40f3f05547bd" style="width: 100.0%; height: 100.0%;">Rione Regola Cluster 2</div>`)[0];
+                popup_90a83aaeb2a945d189abb2a6099d23a5.setContent(html_dead226418ec4e238fed40f3f05547bd);
+            
+
+            circle_6d7f7309d8244d0bbdfd0c6a368f0c4f.bindPopup(popup_90a83aaeb2a945d189abb2a6099d23a5)
+            ;
+
+            
+        
+    
+
+            var circle_d518eaa5532a44999e649dd617896c69 = L.circle(
+                [41.89963912963867, 12.474909782409668],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 400,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_d16f73aa0f0849f99ccde55f7d61d6e9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f42e1c69552c4186bdfb5bb56d01b449 = $(`<div id="html_f42e1c69552c4186bdfb5bb56d01b449" style="width: 100.0%; height: 100.0%;">Rione Sant’Eustachio Cluster 2</div>`)[0];
+                popup_d16f73aa0f0849f99ccde55f7d61d6e9.setContent(html_f42e1c69552c4186bdfb5bb56d01b449);
+            
+
+            circle_d518eaa5532a44999e649dd617896c69.bindPopup(popup_d16f73aa0f0849f99ccde55f7d61d6e9)
+            ;
+
+            
+        
+    
+
+            var circle_ca0715c382d14e61aeba7c5afe891d32 = L.circle(
+                [41.89775848388672, 12.48031997680664],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 400,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_15106cba9c784cf8aa6d0c173c96d3ab = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1611bb992835410cb59be34f96cb1426 = $(`<div id="html_1611bb992835410cb59be34f96cb1426" style="width: 100.0%; height: 100.0%;">Rione Pigna Cluster 1</div>`)[0];
+                popup_15106cba9c784cf8aa6d0c173c96d3ab.setContent(html_1611bb992835410cb59be34f96cb1426);
+            
+
+            circle_ca0715c382d14e61aeba7c5afe891d32.bindPopup(popup_15106cba9c784cf8aa6d0c173c96d3ab)
+            ;
+
+            
+        
+    
+
+            var circle_918226dcb98e4214af659194c00dd542 = L.circle(
+                [41.89353942871094, 12.478710174560547],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 400,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_97349b095d2949e19d7a8818d369a548 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6912dc1de03f49b6988b078a629daec5 = $(`<div id="html_6912dc1de03f49b6988b078a629daec5" style="width: 100.0%; height: 100.0%;">Rione Sant’Angelo Cluster 2</div>`)[0];
+                popup_97349b095d2949e19d7a8818d369a548.setContent(html_6912dc1de03f49b6988b078a629daec5);
+            
+
+            circle_918226dcb98e4214af659194c00dd542.bindPopup(popup_97349b095d2949e19d7a8818d369a548)
+            ;
+
+            
+        
+    
+
+            var circle_ca756b07b7764a37b82cdfbd7cf6e681 = L.circle(
+                [41.882999420166016, 12.482040405273438],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 400,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_4332b652278e435fa8071f27496b6548 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c754e15325c64d78a3c383001c9afe94 = $(`<div id="html_c754e15325c64d78a3c383001c9afe94" style="width: 100.0%; height: 100.0%;">Rione Ripa Cluster 1</div>`)[0];
+                popup_4332b652278e435fa8071f27496b6548.setContent(html_c754e15325c64d78a3c383001c9afe94);
+            
+
+            circle_ca756b07b7764a37b82cdfbd7cf6e681.bindPopup(popup_4332b652278e435fa8071f27496b6548)
+            ;
+
+            
+        
+    
+
+            var circle_7172aaf4ab5d4d8ca26324c552d85f2e = L.circle(
+                [41.88840103149414, 12.46615982055664],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 400,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_35967777be2948ac9f856698422e763d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_413a36efd7b94db78c2a64cdd134cc22 = $(`<div id="html_413a36efd7b94db78c2a64cdd134cc22" style="width: 100.0%; height: 100.0%;">Rione Trastevere Cluster 2</div>`)[0];
+                popup_35967777be2948ac9f856698422e763d.setContent(html_413a36efd7b94db78c2a64cdd134cc22);
+            
+
+            circle_7172aaf4ab5d4d8ca26324c552d85f2e.bindPopup(popup_35967777be2948ac9f856698422e763d)
+            ;
+
+            
+        
+    
+
+            var circle_1bb07444d4a249d19afe7d8b4e76a3c6 = L.circle(
+                [41.90242004394531, 12.461939811706543],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 400,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_b5b9839dc1074e129d72174226e47f50 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_22c865bcd0c1401ab4bcdb690e904026 = $(`<div id="html_22c865bcd0c1401ab4bcdb690e904026" style="width: 100.0%; height: 100.0%;">Rione Borgo Cluster 2</div>`)[0];
+                popup_b5b9839dc1074e129d72174226e47f50.setContent(html_22c865bcd0c1401ab4bcdb690e904026);
+            
+
+            circle_1bb07444d4a249d19afe7d8b4e76a3c6.bindPopup(popup_b5b9839dc1074e129d72174226e47f50)
+            ;
+
+            
+        
+    
+
+            var circle_91da03c14067461fae9cf12a236a4e8f = L.circle(
+                [41.8940315246582, 12.505999565124512],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 400,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_d0accd5aa9f045a4b028a976ba3bba56 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0604fda94b7846abbbb0f02c43c0ea86 = $(`<div id="html_0604fda94b7846abbbb0f02c43c0ea86" style="width: 100.0%; height: 100.0%;">Rione Esquilino Cluster 2</div>`)[0];
+                popup_d0accd5aa9f045a4b028a976ba3bba56.setContent(html_0604fda94b7846abbbb0f02c43c0ea86);
+            
+
+            circle_91da03c14067461fae9cf12a236a4e8f.bindPopup(popup_d0accd5aa9f045a4b028a976ba3bba56)
+            ;
+
+            
+        
+    
+
+            var circle_ecb8392fb1714a939474f4b4c6f95466 = L.circle(
+                [41.90776062011719, 12.48954963684082],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 400,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_96cdc59737744388bba2f3139be6230f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fbf1aee0408f4168843da4e56cfffe34 = $(`<div id="html_fbf1aee0408f4168843da4e56cfffe34" style="width: 100.0%; height: 100.0%;">Rione Ludovisi Cluster 1</div>`)[0];
+                popup_96cdc59737744388bba2f3139be6230f.setContent(html_fbf1aee0408f4168843da4e56cfffe34);
+            
+
+            circle_ecb8392fb1714a939474f4b4c6f95466.bindPopup(popup_96cdc59737744388bba2f3139be6230f)
+            ;
+
+            
+        
+    
+
+            var circle_7a6c90e167274462abc19da3bd8641ff = L.circle(
+                [41.90782928466797, 12.496129989624023],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 400,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_627b9e08448a4c85bb804a81b0451729 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ff37eb49efe040a58c977e28b25697b7 = $(`<div id="html_ff37eb49efe040a58c977e28b25697b7" style="width: 100.0%; height: 100.0%;">Rione Sallustiano Cluster 2</div>`)[0];
+                popup_627b9e08448a4c85bb804a81b0451729.setContent(html_ff37eb49efe040a58c977e28b25697b7);
+            
+
+            circle_7a6c90e167274462abc19da3bd8641ff.bindPopup(popup_627b9e08448a4c85bb804a81b0451729)
+            ;
+
+            
+        
+    
+
+            var circle_5900bc15b28c4886a74af0fb3deee9b3 = L.circle(
+                [41.90550994873047, 12.501879692077637],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 400,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_4c39c87a953b49ee93cd1530edc93c52 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f6c9696f657c4050866021b1248f6606 = $(`<div id="html_f6c9696f657c4050866021b1248f6606" style="width: 100.0%; height: 100.0%;">Rione Castro Pretorio Cluster 1</div>`)[0];
+                popup_4c39c87a953b49ee93cd1530edc93c52.setContent(html_f6c9696f657c4050866021b1248f6606);
+            
+
+            circle_5900bc15b28c4886a74af0fb3deee9b3.bindPopup(popup_4c39c87a953b49ee93cd1530edc93c52)
+            ;
+
+            
+        
+    
+
+            var circle_a64a220ccbb74a5989d6645c586fc4e4 = L.circle(
+                [41.88671875, 12.494830131530762],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 400,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_74b684f61cbb4942a9b9338f64e8e10b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2272b2f5ae1c4b0f98f21bc704bb8014 = $(`<div id="html_2272b2f5ae1c4b0f98f21bc704bb8014" style="width: 100.0%; height: 100.0%;">Rione Celio Cluster 2</div>`)[0];
+                popup_74b684f61cbb4942a9b9338f64e8e10b.setContent(html_2272b2f5ae1c4b0f98f21bc704bb8014);
+            
+
+            circle_a64a220ccbb74a5989d6645c586fc4e4.bindPopup(popup_74b684f61cbb4942a9b9338f64e8e10b)
+            ;
+
+            
+        
+    
+
+            var circle_d48cc5231af94611863b90a3ae154384 = L.circle(
+                [41.87770080566406, 12.475760459899902],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 400,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_e0b7d28c313240b2a7181802f5e21018 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_19aff001fdbc4faa9941ee5dc3dc1ef3 = $(`<div id="html_19aff001fdbc4faa9941ee5dc3dc1ef3" style="width: 100.0%; height: 100.0%;">Rione Testaccio Cluster 2</div>`)[0];
+                popup_e0b7d28c313240b2a7181802f5e21018.setContent(html_19aff001fdbc4faa9941ee5dc3dc1ef3);
+            
+
+            circle_d48cc5231af94611863b90a3ae154384.bindPopup(popup_e0b7d28c313240b2a7181802f5e21018)
+            ;
+
+            
+        
+    
+
+            var circle_30c24d170bb2448d8ac8250d205efa39 = L.circle(
+                [41.90827178955078, 12.464980125427246],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 400,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_3e33cb978ecd448cb143cd63572eaa24 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5de19c8d20d74dacab9ed8d85aae8907 = $(`<div id="html_5de19c8d20d74dacab9ed8d85aae8907" style="width: 100.0%; height: 100.0%;">Rione Prati Cluster 1</div>`)[0];
+                popup_3e33cb978ecd448cb143cd63572eaa24.setContent(html_5de19c8d20d74dacab9ed8d85aae8907);
+            
+
+            circle_30c24d170bb2448d8ac8250d205efa39.bindPopup(popup_3e33cb978ecd448cb143cd63572eaa24)
+            ;
+
+            
+        
+    
+
+            var circle_6aff6bbd5bdc48939cbd5f4788842c3f = L.circle(
+                [41.929988861083984, 12.464509963989258],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_db46c23a8601436fa5e7b745a3fd5dc2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9ddf69324a384c2691bb0aa9bbe363b6 = $(`<div id="html_9ddf69324a384c2691bb0aa9bbe363b6" style="width: 100.0%; height: 100.0%;">Quartiere Flaminio Cluster 2</div>`)[0];
+                popup_db46c23a8601436fa5e7b745a3fd5dc2.setContent(html_9ddf69324a384c2691bb0aa9bbe363b6);
+            
+
+            circle_6aff6bbd5bdc48939cbd5f4788842c3f.bindPopup(popup_db46c23a8601436fa5e7b745a3fd5dc2)
+            ;
+
+            
+        
+    
+
+            var circle_3be6f990959a450599853c8ab0f1e33c = L.circle(
+                [41.93177032470703, 12.486220359802246],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_9f91dcb1032c4cd2bada1a9a683f1ea5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8e9682b7de0f4a07a6651e3ea7666a3a = $(`<div id="html_8e9682b7de0f4a07a6651e3ea7666a3a" style="width: 100.0%; height: 100.0%;">Quartiere Parioli Cluster 1</div>`)[0];
+                popup_9f91dcb1032c4cd2bada1a9a683f1ea5.setContent(html_8e9682b7de0f4a07a6651e3ea7666a3a);
+            
+
+            circle_3be6f990959a450599853c8ab0f1e33c.bindPopup(popup_9f91dcb1032c4cd2bada1a9a683f1ea5)
+            ;
+
+            
+        
+    
+
+            var circle_b61aed38afb4400a9db8f5b694b6bd7a = L.circle(
+                [41.918861389160156, 12.484100341796875],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_2953b7ee389947d993a80371e1cd1655 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ec764f35f33d4347967114c6f885586b = $(`<div id="html_ec764f35f33d4347967114c6f885586b" style="width: 100.0%; height: 100.0%;">Quartiere Pinciano Cluster 1</div>`)[0];
+                popup_2953b7ee389947d993a80371e1cd1655.setContent(html_ec764f35f33d4347967114c6f885586b);
+            
+
+            circle_b61aed38afb4400a9db8f5b694b6bd7a.bindPopup(popup_2953b7ee389947d993a80371e1cd1655)
+            ;
+
+            
+        
+    
+
+            var circle_dd83be581047417db31e34143537a45e = L.circle(
+                [41.91331100463867, 12.502169609069824],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_f001dc567d414cbabc74aaa8a395f244 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b3328a06f6f84276a74066be23972e08 = $(`<div id="html_b3328a06f6f84276a74066be23972e08" style="width: 100.0%; height: 100.0%;">Quartiere Salario Cluster 2</div>`)[0];
+                popup_f001dc567d414cbabc74aaa8a395f244.setContent(html_b3328a06f6f84276a74066be23972e08);
+            
+
+            circle_dd83be581047417db31e34143537a45e.bindPopup(popup_f001dc567d414cbabc74aaa8a395f244)
+            ;
+
+            
+        
+    
+
+            var circle_d6ce193e657845968311eff52149e4b2 = L.circle(
+                [41.91447067260742, 12.522100448608398],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_075ddf4c3cd04340b7a445b0c092882e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8f6ee1c891a4402a962c7d9903035a9b = $(`<div id="html_8f6ee1c891a4402a962c7d9903035a9b" style="width: 100.0%; height: 100.0%;">Quartiere Nomentano Cluster 0</div>`)[0];
+                popup_075ddf4c3cd04340b7a445b0c092882e.setContent(html_8f6ee1c891a4402a962c7d9903035a9b);
+            
+
+            circle_d6ce193e657845968311eff52149e4b2.bindPopup(popup_075ddf4c3cd04340b7a445b0c092882e)
+            ;
+
+            
+        
+    
+
+            var circle_b9530d0c14264a06b0f0170dd772fd90 = L.circle(
+                [41.897850036621094, 12.521010398864746],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_33a48cc3bc6f48d1ae469c320e1a78e5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4fe1a9182b7f412bb61eb456aa039313 = $(`<div id="html_4fe1a9182b7f412bb61eb456aa039313" style="width: 100.0%; height: 100.0%;">Quartiere Tiburtino Cluster 0</div>`)[0];
+                popup_33a48cc3bc6f48d1ae469c320e1a78e5.setContent(html_4fe1a9182b7f412bb61eb456aa039313);
+            
+
+            circle_b9530d0c14264a06b0f0170dd772fd90.bindPopup(popup_33a48cc3bc6f48d1ae469c320e1a78e5)
+            ;
+
+            
+        
+    
+
+            var circle_470c054566eb4fd2aa83cf85ab971c95 = L.circle(
+                [41.88570022583008, 12.535209655761719],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_bf55b5bfc9d94dbd922b117e8363b131 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1df2888d60734f8aae4c7a12c7f8fc52 = $(`<div id="html_1df2888d60734f8aae4c7a12c7f8fc52" style="width: 100.0%; height: 100.0%;">Quartiere Prenestino Labicano Cluster 0</div>`)[0];
+                popup_bf55b5bfc9d94dbd922b117e8363b131.setContent(html_1df2888d60734f8aae4c7a12c7f8fc52);
+            
+
+            circle_470c054566eb4fd2aa83cf85ab971c95.bindPopup(popup_bf55b5bfc9d94dbd922b117e8363b131)
+            ;
+
+            
+        
+    
+
+            var circle_b7160f7a021640e6b43ec75c59e364cc = L.circle(
+                [41.871639251708984, 12.540550231933594],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_ca3261a9b27a4a4ab64ac4a0971e73dd = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_082237a02849485caebd42730b475eee = $(`<div id="html_082237a02849485caebd42730b475eee" style="width: 100.0%; height: 100.0%;">Quartiere Tuscolano Cluster 0</div>`)[0];
+                popup_ca3261a9b27a4a4ab64ac4a0971e73dd.setContent(html_082237a02849485caebd42730b475eee);
+            
+
+            circle_b7160f7a021640e6b43ec75c59e364cc.bindPopup(popup_ca3261a9b27a4a4ab64ac4a0971e73dd)
+            ;
+
+            
+        
+    
+
+            var circle_dbfad3cad30246e8ba1a2923631f47e8 = L.circle(
+                [41.874610900878906, 12.513330459594727],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_e167ae9f71be4194b4ed8426e1edf4f1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5f10f1c1083f4567a12415aca3ece5d0 = $(`<div id="html_5f10f1c1083f4567a12415aca3ece5d0" style="width: 100.0%; height: 100.0%;">Quartiere Appio Latino Cluster 0</div>`)[0];
+                popup_e167ae9f71be4194b4ed8426e1edf4f1.setContent(html_5f10f1c1083f4567a12415aca3ece5d0);
+            
+
+            circle_dbfad3cad30246e8ba1a2923631f47e8.bindPopup(popup_e167ae9f71be4194b4ed8426e1edf4f1)
+            ;
+
+            
+        
+    
+
+            var circle_9bb1f70c8ec640a290b76618a2b38b09 = L.circle(
+                [41.859981536865234, 12.480469703674316],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_0bb178e163114e469c5e2d0749beeb85 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5c54da7745a94f81ad6645380bdfebf7 = $(`<div id="html_5c54da7745a94f81ad6645380bdfebf7" style="width: 100.0%; height: 100.0%;">Quartiere Ostiense Cluster 2</div>`)[0];
+                popup_0bb178e163114e469c5e2d0749beeb85.setContent(html_5c54da7745a94f81ad6645380bdfebf7);
+            
+
+            circle_9bb1f70c8ec640a290b76618a2b38b09.bindPopup(popup_0bb178e163114e469c5e2d0749beeb85)
+            ;
+
+            
+        
+    
+
+            var circle_deef4316cf5d44cfabf9bffaa29acff8 = L.circle(
+                [41.85282897949219, 12.457240104675293],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_763e9dd9b8b44f09b4fa611a500f2347 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2be13230ad24462985024b88b2cd15c1 = $(`<div id="html_2be13230ad24462985024b88b2cd15c1" style="width: 100.0%; height: 100.0%;">Quartiere Portuense Cluster 0</div>`)[0];
+                popup_763e9dd9b8b44f09b4fa611a500f2347.setContent(html_2be13230ad24462985024b88b2cd15c1);
+            
+
+            circle_deef4316cf5d44cfabf9bffaa29acff8.bindPopup(popup_763e9dd9b8b44f09b4fa611a500f2347)
+            ;
+
+            
+        
+    
+
+            var circle_43d78be4ce214fa5a8f5e18a6c0f6f00 = L.circle(
+                [41.87422180175781, 12.457659721374512],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_d44eb58388c746948d3e13eec7f3f9c5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3191b043377f49778eed4ceae55557a6 = $(`<div id="html_3191b043377f49778eed4ceae55557a6" style="width: 100.0%; height: 100.0%;">Quartiere Gianicolense Cluster 0</div>`)[0];
+                popup_d44eb58388c746948d3e13eec7f3f9c5.setContent(html_3191b043377f49778eed4ceae55557a6);
+            
+
+            circle_43d78be4ce214fa5a8f5e18a6c0f6f00.bindPopup(popup_d44eb58388c746948d3e13eec7f3f9c5)
+            ;
+
+            
+        
+    
+
+            var circle_adec224b0e6443c8952e99afbbecec4c = L.circle(
+                [41.89609909057617, 12.43925952911377],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_9a824535a15d4656a81e30efd78bb0f1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5214997029a243d89995ccb4cff2c2e2 = $(`<div id="html_5214997029a243d89995ccb4cff2c2e2" style="width: 100.0%; height: 100.0%;">Quartiere Aurelio Cluster 1</div>`)[0];
+                popup_9a824535a15d4656a81e30efd78bb0f1.setContent(html_5214997029a243d89995ccb4cff2c2e2);
+            
+
+            circle_adec224b0e6443c8952e99afbbecec4c.bindPopup(popup_9a824535a15d4656a81e30efd78bb0f1)
+            ;
+
+            
+        
+    
+
+            var circle_7c584025ff4d43388cc6046504c58c84 = L.circle(
+                [41.92108154296875, 12.43805980682373],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_360266d6d7cc439abc2bd0e1aa7088a9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_349cf9f2bdb748eaa688899220bdffde = $(`<div id="html_349cf9f2bdb748eaa688899220bdffde" style="width: 100.0%; height: 100.0%;">Quartiere Trionfale Cluster 1</div>`)[0];
+                popup_360266d6d7cc439abc2bd0e1aa7088a9.setContent(html_349cf9f2bdb748eaa688899220bdffde);
+            
+
+            circle_7c584025ff4d43388cc6046504c58c84.bindPopup(popup_360266d6d7cc439abc2bd0e1aa7088a9)
+            ;
+
+            
+        
+    
+
+            var circle_a850811aaa0249efb2bcdf74da9008d8 = L.circle(
+                [41.92319107055664, 12.458840370178223],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_7f824240b0fa49a6ad58e233f95cc090 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9f7eeac5758e4bee926f8626f1cf656c = $(`<div id="html_9f7eeac5758e4bee926f8626f1cf656c" style="width: 100.0%; height: 100.0%;">Quartiere Della Vittoria Cluster 2</div>`)[0];
+                popup_7f824240b0fa49a6ad58e233f95cc090.setContent(html_9f7eeac5758e4bee926f8626f1cf656c);
+            
+
+            circle_a850811aaa0249efb2bcdf74da9008d8.bindPopup(popup_7f824240b0fa49a6ad58e233f95cc090)
+            ;
+
+            
+        
+    
+
+            var circle_527021ab540b49eca252632421c08ee4 = L.circle(
+                [41.94036865234375, 12.532730102539062],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_4de80a35210c4c71b9531b998f00522a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0368ecf6de3c4479bea3bc8e1ba4172b = $(`<div id="html_0368ecf6de3c4479bea3bc8e1ba4172b" style="width: 100.0%; height: 100.0%;">Quartiere Monte Sacro Cluster 0</div>`)[0];
+                popup_4de80a35210c4c71b9531b998f00522a.setContent(html_0368ecf6de3c4479bea3bc8e1ba4172b);
+            
+
+            circle_527021ab540b49eca252632421c08ee4.bindPopup(popup_4de80a35210c4c71b9531b998f00522a)
+            ;
+
+            
+        
+    
+
+            var circle_bfaee07a5a314853a70486565b84bbf5 = L.circle(
+                [41.92490005493164, 12.516519546508789],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_83c228e54ca64fb892a8830c40bbdc8a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_abdee7787ee84a20ad69ba7d61c28e9a = $(`<div id="html_abdee7787ee84a20ad69ba7d61c28e9a" style="width: 100.0%; height: 100.0%;">Quartiere Trieste Cluster 0</div>`)[0];
+                popup_83c228e54ca64fb892a8830c40bbdc8a.setContent(html_abdee7787ee84a20ad69ba7d61c28e9a);
+            
+
+            circle_bfaee07a5a314853a70486565b84bbf5.bindPopup(popup_83c228e54ca64fb892a8830c40bbdc8a)
+            ;
+
+            
+        
+    
+
+            var circle_16d015e8fbec48cfba4f116bbb1c6d57 = L.circle(
+                [41.939998626708984, 12.480389595031738],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_a7b1fdde780e41a580ba2da859b3ae2c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e9302f006c1447289d4a867928946d62 = $(`<div id="html_e9302f006c1447289d4a867928946d62" style="width: 100.0%; height: 100.0%;">Quartiere Tor di Quinto Cluster 2</div>`)[0];
+                popup_a7b1fdde780e41a580ba2da859b3ae2c.setContent(html_e9302f006c1447289d4a867928946d62);
+            
+
+            circle_16d015e8fbec48cfba4f116bbb1c6d57.bindPopup(popup_a7b1fdde780e41a580ba2da859b3ae2c)
+            ;
+
+            
+        
+    
+
+            var circle_005cb755ca1247d78de6358da8053afd = L.circle(
+                [41.884159088134766, 12.56620979309082],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_3bb396687c7941d7a46304208ebf85c3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cffbd05929c14927a970b38b93ebaaa6 = $(`<div id="html_cffbd05929c14927a970b38b93ebaaa6" style="width: 100.0%; height: 100.0%;">Quartiere Prenestino Centocelle Cluster 0</div>`)[0];
+                popup_3bb396687c7941d7a46304208ebf85c3.setContent(html_cffbd05929c14927a970b38b93ebaaa6);
+            
+
+            circle_005cb755ca1247d78de6358da8053afd.bindPopup(popup_3bb396687c7941d7a46304208ebf85c3)
+            ;
+
+            
+        
+    
+
+            var circle_3f703d5c1798436f8bb38044d4698026 = L.circle(
+                [41.8459587097168, 12.489709854125977],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_bbb93b7221c04bcf88a5f8b9ba5f6930 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_215d3960b07147f99d7faa69fccfa0d0 = $(`<div id="html_215d3960b07147f99d7faa69fccfa0d0" style="width: 100.0%; height: 100.0%;">Quartiere Ardeatino Cluster 0</div>`)[0];
+                popup_bbb93b7221c04bcf88a5f8b9ba5f6930.setContent(html_215d3960b07147f99d7faa69fccfa0d0);
+            
+
+            circle_3f703d5c1798436f8bb38044d4698026.bindPopup(popup_bbb93b7221c04bcf88a5f8b9ba5f6930)
+            ;
+
+            
+        
+    
+
+            var circle_f570a8aa6164422c813b23ae388e7da6 = L.circle(
+                [41.92049026489258, 12.546500205993652],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_2ecc9500283d4a6b8776811bdfe12321 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e05007086d1449a6b4cc3bb8bb5cec8c = $(`<div id="html_e05007086d1449a6b4cc3bb8bb5cec8c" style="width: 100.0%; height: 100.0%;">Quartiere Pietralata Cluster 0</div>`)[0];
+                popup_2ecc9500283d4a6b8776811bdfe12321.setContent(html_e05007086d1449a6b4cc3bb8bb5cec8c);
+            
+
+            circle_f570a8aa6164422c813b23ae388e7da6.bindPopup(popup_2ecc9500283d4a6b8776811bdfe12321)
+            ;
+
+            
+        
+    
+
+            var circle_513d1e1e55bd435bb897b3e6b965fd0e = L.circle(
+                [41.90742874145508, 12.55070972442627],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_4e23c2ccdafd4b3f99d1035431cad511 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_064ef1a42244441e88d92235c3efcfd3 = $(`<div id="html_064ef1a42244441e88d92235c3efcfd3" style="width: 100.0%; height: 100.0%;">Quartiere Collatino Cluster 0</div>`)[0];
+                popup_4e23c2ccdafd4b3f99d1035431cad511.setContent(html_064ef1a42244441e88d92235c3efcfd3);
+            
+
+            circle_513d1e1e55bd435bb897b3e6b965fd0e.bindPopup(popup_4e23c2ccdafd4b3f99d1035431cad511)
+            ;
+
+            
+        
+    
+
+            var circle_2eb83fb94b9246fd9c5def72a86e430b = L.circle(
+                [41.881431579589844, 12.580050468444824],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_fac57d9aa5ab4301846f34d9db79554f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_306b1e77d179478db4371f030e4fd843 = $(`<div id="html_306b1e77d179478db4371f030e4fd843" style="width: 100.0%; height: 100.0%;">Quartiere Alessandrino Cluster 0</div>`)[0];
+                popup_fac57d9aa5ab4301846f34d9db79554f.setContent(html_306b1e77d179478db4371f030e4fd843);
+            
+
+            circle_2eb83fb94b9246fd9c5def72a86e430b.bindPopup(popup_fac57d9aa5ab4301846f34d9db79554f)
+            ;
+
+            
+        
+    
+
+            var circle_ba1d6ce55ef94f7b884b5a88b9a27654 = L.circle(
+                [41.8584098815918, 12.56338119506836],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_ab0794e5e57f48c6856a3cdafaac5074 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_59c0e3c5c187434b87f78b914e2e51c8 = $(`<div id="html_59c0e3c5c187434b87f78b914e2e51c8" style="width: 100.0%; height: 100.0%;">Quartiere Don Bosco Cluster 0</div>`)[0];
+                popup_ab0794e5e57f48c6856a3cdafaac5074.setContent(html_59c0e3c5c187434b87f78b914e2e51c8);
+            
+
+            circle_ba1d6ce55ef94f7b884b5a88b9a27654.bindPopup(popup_ab0794e5e57f48c6856a3cdafaac5074)
+            ;
+
+            
+        
+    
+
+            var circle_92ac7ccffa844bdeb77c21c78b8815f0 = L.circle(
+                [41.848350524902344, 12.563909530639648],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_fa74dc0c65084fe3aa359089ea537cc0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6c1a7874c9514cfbbd51793dd82dadd1 = $(`<div id="html_6c1a7874c9514cfbbd51793dd82dadd1" style="width: 100.0%; height: 100.0%;">Quartiere Appio Claudio Cluster 2</div>`)[0];
+                popup_fa74dc0c65084fe3aa359089ea537cc0.setContent(html_6c1a7874c9514cfbbd51793dd82dadd1);
+            
+
+            circle_92ac7ccffa844bdeb77c21c78b8815f0.bindPopup(popup_fa74dc0c65084fe3aa359089ea537cc0)
+            ;
+
+            
+        
+    
+
+            var circle_ff875164599f493885cc219fcc024359 = L.circle(
+                [41.84326171875, 12.540579795837402],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_8a8c8f00ce4c4e47917288f910ff3c83 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_27856130ce5248658b2311479bb20a70 = $(`<div id="html_27856130ce5248658b2311479bb20a70" style="width: 100.0%; height: 100.0%;">Quartiere Appio Pignatelli Cluster 0</div>`)[0];
+                popup_8a8c8f00ce4c4e47917288f910ff3c83.setContent(html_27856130ce5248658b2311479bb20a70);
+            
+
+            circle_ff875164599f493885cc219fcc024359.bindPopup(popup_8a8c8f00ce4c4e47917288f910ff3c83)
+            ;
+
+            
+        
+    
+
+            var circle_2af8dd297fd64f3faa1095668c10341e = L.circle(
+                [41.91870880126953, 12.415249824523926],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_a787a0fbffba4b878965324169e80efa = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_552114b6955846f89e78228ca14acc8d = $(`<div id="html_552114b6955846f89e78228ca14acc8d" style="width: 100.0%; height: 100.0%;">Quartiere Primavalle Cluster 0</div>`)[0];
+                popup_a787a0fbffba4b878965324169e80efa.setContent(html_552114b6955846f89e78228ca14acc8d);
+            
+
+            circle_2af8dd297fd64f3faa1095668c10341e.bindPopup(popup_a787a0fbffba4b878965324169e80efa)
+            ;
+
+            
+        
+    
+
+            var circle_d514aab7dc4c4d7baefe9561abe722fd = L.circle(
+                [41.9476432800293, 12.55412483215332],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_f742d50dc1d1437bb8d30a6174eccce5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_904a74e141b14c2fa516c0ab340572b1 = $(`<div id="html_904a74e141b14c2fa516c0ab340572b1" style="width: 100.0%; height: 100.0%;">Quartiere Monte Sacro Alto Cluster 0</div>`)[0];
+                popup_f742d50dc1d1437bb8d30a6174eccce5.setContent(html_904a74e141b14c2fa516c0ab340572b1);
+            
+
+            circle_d514aab7dc4c4d7baefe9561abe722fd.bindPopup(popup_f742d50dc1d1437bb8d30a6174eccce5)
+            ;
+
+            
+        
+    
+
+            var circle_ffb57ed1a9344cd485e71769a3f6c1eb = L.circle(
+                [41.934791564941406, 12.569219589233398],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_7a4cc0716b9646ac9310996b2275eecc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7fcc91cf34a348599f5b8edf2dde7d46 = $(`<div id="html_7fcc91cf34a348599f5b8edf2dde7d46" style="width: 100.0%; height: 100.0%;">Quartiere Ponte Mammolo Cluster 0</div>`)[0];
+                popup_7a4cc0716b9646ac9310996b2275eecc.setContent(html_7fcc91cf34a348599f5b8edf2dde7d46);
+            
+
+            circle_ffb57ed1a9344cd485e71769a3f6c1eb.bindPopup(popup_7a4cc0716b9646ac9310996b2275eecc)
+            ;
+
+            
+        
+    
+
+            var circle_2da86616010c4f7683d6d5e89172f09a = L.circle(
+                [41.942230224609375, 12.585729598999023],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_c4b0e6d15baa4847ad6019c7f7ef203d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9c64adef2b464413844b1013d46af947 = $(`<div id="html_9c64adef2b464413844b1013d46af947" style="width: 100.0%; height: 100.0%;">Quartiere San Basilio Cluster 0</div>`)[0];
+                popup_c4b0e6d15baa4847ad6019c7f7ef203d.setContent(html_9c64adef2b464413844b1013d46af947);
+            
+
+            circle_2da86616010c4f7683d6d5e89172f09a.bindPopup(popup_c4b0e6d15baa4847ad6019c7f7ef203d)
+            ;
+
+            
+        
+    
+
+            var circle_2017a61650264f56bb86ea77160f4c96 = L.circle(
+                [41.81504821777344, 12.50471019744873],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_330d1b0175df42258c5829ce9771f92f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f497f20f490545f2893bf0a910c11fb9 = $(`<div id="html_f497f20f490545f2893bf0a910c11fb9" style="width: 100.0%; height: 100.0%;">Quartiere Giuliano Dalmata Cluster 1</div>`)[0];
+                popup_330d1b0175df42258c5829ce9771f92f.setContent(html_f497f20f490545f2893bf0a910c11fb9);
+            
+
+            circle_2017a61650264f56bb86ea77160f4c96.bindPopup(popup_330d1b0175df42258c5829ce9771f92f)
+            ;
+
+            
+        
+    
+
+            var circle_e4e837f2253f4a968f495e0c7b75e2dc = L.circle(
+                [41.83361053466797, 12.470829963684082],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 800,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_1f51714e4cc049e4a136ff6b1e181c96);
+            
+    
+            var popup_7caadb90c4c943eea7fcbad459a9f4af = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_45062f7c2a244e44b731b30833be7f26 = $(`<div id="html_45062f7c2a244e44b731b30833be7f26" style="width: 100.0%; height: 100.0%;">Quartiere Eur Cluster 0</div>`)[0];
+                popup_7caadb90c4c943eea7fcbad459a9f4af.setContent(html_45062f7c2a244e44b731b30833be7f26);
+            
+
+            circle_e4e837f2253f4a968f495e0c7b75e2dc.bindPopup(popup_7caadb90c4c943eea7fcbad459a9f4af)
+            ;
+
+            
+        
+</script>
